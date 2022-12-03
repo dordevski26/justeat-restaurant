@@ -1,0 +1,134 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+
+
+.left{
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    width: 66%;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.left-top{
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.left-bottom{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-family: sans-serif;   
+}
+.svg{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    
+}
+.nameLeft{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+.choose{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-middle{
+    height: 80%;
+    display: flex;
+}
+.footer{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+  
+}
+.menuButton{
+    margin: 10px;
+    padding: 5px 20px;
+    font-family: sans-serif;
+}
+.right-middle-left{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.right-middle-right{
+    width: 50%;
+}
+.footer-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-right{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+.address{
+    color: white;
+    font-family: sans-serif;
+}
+.phoneNumber{
+    color: white;
+    font-family: sans-serif;
+}
+.email{
+    color: white;
+    font-family: sans-serif;
+}
+.facebook{
+    color: white;
+}
+.instagram{
+    color: white;
+    margin-right: 10px;
+}
